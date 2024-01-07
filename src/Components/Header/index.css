@@ -1,0 +1,40 @@
+.header-container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  color: #25282b;
+  position: fixed;
+  background-color: #fdc435;
+}
+
+.header-heading {
+  font-family: Comfortaa;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 12%;
+  width: 50%;
+}
+
+.links-container {
+  list-style: none;
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 12%;
+}
+
+.link-item {
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #25282b;
+}

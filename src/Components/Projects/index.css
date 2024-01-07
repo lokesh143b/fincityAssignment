@@ -1,0 +1,67 @@
+.projects-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-heading {
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #25282b;
+}
+
+.projects-card-container {
+  width: 992px;
+  height: 524px;
+  padding: 146.5px, 38.88px, 145.5px, 50.44px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content: center;
+}
+
+.project-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+}
+
+.project-name {
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #25282b;
+}
+
+.project-description {
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+}
+
+.view-project {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 150px;
+  height: 43px;
+  padding: 8px, 24px, 8px, 24px;
+  border-radius: 24px;
+  border: 1px solid gray;
+}
