@@ -82,7 +82,7 @@ class Home extends Component {
     return (
       <div className="input-container">
         <label className="label" htmlFor="projectDescription">
-          project link
+          Description
         </label>
         <textarea
           onChange={this.onChangeDescription}
