@@ -1,0 +1,17 @@
+.contact-container {
+  height: 100vh;
+  background-color: #fdc435;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-card-container {
+  width: 50%;
+  height: 50%;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

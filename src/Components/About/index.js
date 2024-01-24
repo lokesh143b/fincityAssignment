@@ -1,8 +1,10 @@
 import "./index.css";
 
 const About = () => (
-  <div>
+  <div className="about-container">
+  <div className="about-card-container">
     <h1>About</h1>
+    </div>
   </div>
 );
 
